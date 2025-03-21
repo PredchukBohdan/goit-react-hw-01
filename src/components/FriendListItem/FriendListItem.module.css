@@ -1,0 +1,43 @@
+.friend-item {
+  padding: 8px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.friend-image {
+  width: 42px;
+  margin-bottom: 5px;
+}
+.friend-name {
+  font-size: 14px;
+  line-height: 1;
+}
+.friend-status {
+  font-size: 12px;
+  line-height: 1;
+}
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}
+@media (min-width: 768px) {
+  .friend-item {
+    padding: 15px;
+    gap: 10px;
+  }
+  .friend-image {
+    width: 48px;
+    margin-bottom: 5px;
+  }
+  .friend-name {
+    font-size: 18px;
+  }
+  .friend-status {
+    font-size: 15px;
+  }
+}
